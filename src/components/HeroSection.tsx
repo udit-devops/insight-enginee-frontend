@@ -25,7 +25,7 @@ export function HeroSection({ onGetStarted }: HeroSectionProps) {
       </div>
 
       {/* Badge */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -35,7 +35,7 @@ export function HeroSection({ onGetStarted }: HeroSectionProps) {
         <span className="text-sm font-body text-blue-300/80 tracking-wide">
           Powered by Gemini + ChromaDB RAG
         </span>
-      </motion.div>
+      </motion.div> */}
 
       {/* Heading */}
       <motion.h1

@@ -16,7 +16,7 @@ export default function App() {
     uploadProgress,
     uploadedFile,
     askStatus,
-    answer,
+    response,
     handleUpload,
     handleAsk,
   } = useInsightEngine()
@@ -100,7 +100,7 @@ export default function App() {
           </div>
 
           {/* Answer full width */}
-          <AnswerSection answer={answer} status={askStatus} />
+          <AnswerSection response={response} status={askStatus} />
         </div>
       </section>
 
